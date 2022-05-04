@@ -31,6 +31,7 @@ cp -r ./include/criterion /usr/include &> /dev/null
 echo -e " Done.\n"
 echo -n "Copy .so files ---"
 cp -r libcriterion.so* /usr/lib64 &> /dev/null
+cp -r libcriterion.so* /usr/lib/x86_64-linux-gnu &> /dev/null
 echo -e " Done.\n"
 
 echo -n "Remove Installation folder ---"
